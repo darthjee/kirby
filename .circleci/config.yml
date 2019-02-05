@@ -1,0 +1,7 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: darthjee/circleci_python_37:0.2.2
+    steps:
+      - checkout
